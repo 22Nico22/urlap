@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorgensen-Botos Nicolay Lucas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Kapcsolatfelvétel</legend>
+                <p>Kérjük töltse ki az alábbi kérdéseket!</p>
+                <div class="vlmi">
+                    <label for="nev">Teljes név: </label>
+                    <input type="text" id="nev" placeholder="Pl Kovács János">
+                </div>
+                <div class="vlmi">
+                    <label for="email">Email cím: </label>
+                    <input type="text" placeholder="pl vlmi@gmail.com">
+                </div>
+                <div class="vlmi">
+                    <label for="tema">Téma: </label>
+                    <select name="tema" id="tema">
+                        <option value="1" disabled selected hidden>Valasszon temat</option>
+                        <option value="2">Vlmi</option>
+                        <option value="2">Vl2mi</option>
+                        <option value="2">Vl3mi</option>
+                    </select>
+                </div>
+                <div class="vlmi">
+                    <label for="uzenet">Üzenet: </label>
+                    <textarea name="uzenet" id="uzenet" placeholder="Uzenet nekunk"></textarea>
+                </div>
+
+                <div class="button-wrapper">
+                    <button type="submit">Üzenet küldése</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
